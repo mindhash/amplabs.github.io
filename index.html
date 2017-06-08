@@ -7,7 +7,25 @@
   <link rel="stylesheet" href="amplabs.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <style type="text/css">
+  @media screen and (max-width: 480px) {
+    #main-msg-container{
+      padding: auto !important;
+    }
+    #up-logo{
+      margin-top: 8em !important;
+      text-align: left !important;
+      -webkit-transform: initial !important;
+      transform: initial !important;
+      -ms-transform:initial !important;
+    }
+    #amplab_logo{
+      padding-left: inherit !important;
+    }
+  }
 
+
+  </style>
 </head>
 <body style="
     background-color: rgb(249, 249, 249);
@@ -15,7 +33,7 @@
     background-size: 100%;
     background-repeat: repeat;">
   <div id="root" style="height: 100%">
-    <h1 style="color: rgb(85, 84, 89); font-family: Raleway; padding-left: 1em ">
+    <h1 id="amplab_logo" style="color: rgb(85, 84, 89); font-family: Raleway; padding-left: 1em ">
       <i class="fa fa-flask"
       style="    border: 1px solid rgb(221, 221, 221);
     color: rgb(255, 17, 68);
@@ -29,9 +47,9 @@
     align-items: center;
     flex-direction: column;">
 
-    <div style="    border: 1px solid #eee; border-radius: 2px;
-    padding: 1em;">
-     <div style="position: relative; -ms-transform: rotate(-7deg); /* IE 9 */
+    <div id="main-msg-container" style="    border: 1px solid #eee; border-radius: 2px;
+    padding: 1em;padding-left: 3em;">
+     <div id="up-logo" style="position: relative; -ms-transform: rotate(-7deg); /* IE 9 */
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
     transform: rotate(-7deg);    text-align: center;
     display: flex;
